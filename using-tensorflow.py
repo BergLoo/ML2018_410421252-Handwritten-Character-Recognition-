@@ -101,7 +101,7 @@ if eval_tensorflow:
 
     
 '''  
-程式結果如下
+程式執行結果如下
 Start processing MNIST handwritten digits data...
 Start evaluating softmax regression model by tensorflow...
 Stochastic Gradient Descent processing step 0

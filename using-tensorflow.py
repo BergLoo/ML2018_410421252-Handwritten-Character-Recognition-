@@ -98,3 +98,18 @@ if eval_tensorflow:
     correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
     print ("Accuracy of test set: %f" % sess.run(accuracy, feed_dict={x: test_x_minmax, y_: test_y_data_trans}))
+
+    
+'''Start processing MNIST handwritten digits data...
+Start evaluating softmax regression model by tensorflow...
+Stochastic Gradient Descent processing step 0
+Stochastic Gradient Descent processing step 100
+Stochastic Gradient Descent processing step 200
+Stochastic Gradient Descent processing step 300
+Stochastic Gradient Descent processing step 400
+Stochastic Gradient Descent processing step 500
+Stochastic Gradient Descent processing step 600
+Stochastic Gradient Descent processing step 700
+Stochastic Gradient Descent processing step 800
+Stochastic Gradient Descent processing step 900
+Accuracy of test set: 0.918200'''

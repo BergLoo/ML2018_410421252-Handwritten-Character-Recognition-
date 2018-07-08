@@ -100,7 +100,9 @@ if eval_tensorflow:
     print ("Accuracy of test set: %f" % sess.run(accuracy, feed_dict={x: test_x_minmax, y_: test_y_data_trans}))
 
     
-'''Start processing MNIST handwritten digits data...
+'''  
+程式結果如下
+Start processing MNIST handwritten digits data...
 Start evaluating softmax regression model by tensorflow...
 Stochastic Gradient Descent processing step 0
 Stochastic Gradient Descent processing step 100
@@ -112,4 +114,5 @@ Stochastic Gradient Descent processing step 600
 Stochastic Gradient Descent processing step 700
 Stochastic Gradient Descent processing step 800
 Stochastic Gradient Descent processing step 900
-Accuracy of test set: 0.918200'''
+Accuracy of test set: 0.918200
+'''

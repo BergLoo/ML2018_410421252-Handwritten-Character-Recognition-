@@ -1,4 +1,6 @@
-第一步要讀入數據  
+第二次作業  
+  
+第一步要讀入MNIST的數據  
 使用sklearn遇到了一些問題，如圖  
 ![image](https://github.com/BergLoo/ML2018_410421252-Handwritten-Character-Recognition-/blob/master/image/wrong.png?raw=true)  
   
